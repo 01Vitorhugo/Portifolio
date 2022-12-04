@@ -6,6 +6,7 @@
 }
 body{
     background-color: #000000;
+    color: #f8f8f8;
 }
 .custom-shape-divider-top-1669782678 {
     position: absolute;
@@ -194,15 +195,15 @@ body{
     margin-top: 100px;
     width: 80%;
     height: 200px;
-    color: #f8f8f8;
     margin-left: 10%;
     /* background-color: #ffffff;    */
 }
 .languages h1{
     text-align: center;
-    /* background-color: aqua;  */
+     /* background-color: aqua;   */
     height: 80px;
-    /* animation: appear 2s ease-in-out alternate infinite; */
+    margin-bottom: 80px;
+    padding-top: 40px;
 }
 .languages .carousel{
      /* background-color: aqua;  */
@@ -227,14 +228,248 @@ body{
 }
 
 .languages-level{
-    height: 600px;
+    height: 650px;
     width: 80%;
     margin-left: 10%;
-    background-color:aqua; 
-    margin-top: 100px;
+    /* background-color:aqua;  */
+    margin-top: 130px;
     display: flex; 
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 100px;
+    justify-content: center;
+}
+.languages-level #img-language{
+    margin: 10px;
+}
+.languages-level h1{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-bottom: 50px
+}
+.languages-level .html{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;  
+    cursor: pointer;
+}
+.languages-level .html p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+    animation-duration: 2s;
+    animation-name: languages;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.languages-level .html p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(-0deg) scale(0.5);
+    transform: rotateY(-0deg) scale(1);;
     
+            
 }
 
+
+
+
+.languages-level .css{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+.languages-level .css p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+}
+.languages-level .css p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(0deg) scale(0.5);
+    transform: rotateY(0deg) scale(1);
+            
+}
+.languages-level .sass{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+.languages-level .sass p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+}
+.languages-level .sass p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(0deg) scale(0.5);
+    transform: rotateY(0deg) scale(1);
+            
+}
+.languages-level .git{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+.languages-level .git p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+}
+.languages-level .git p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(0deg) scale(0.5);
+    transform: rotateY(0deg) scale(1);
+            
+}
+.languages-level .github{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+.languages-level .github p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+}
+.languages-level .github p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(0deg) scale(0.5);
+    transform: rotateY(0deg) scale(1);
+            
+}
+
+.languages-level .js{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+.languages-level .js img{
+    border-radius: 20px;
+}
+.languages-level .js p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+    
+}
+.languages-level .js p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(0deg) scale(0.5);
+    transform: rotateY(0deg) scale(1);
+            
+}
+.languages-level .php{
+    background: rgb(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+     cursor: pointer;
+}
+.languages-level .php p{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    padding-top: 50%;
+    background-color: transparent;
+    color: transparent;
+    transition: all .9s;
+    font-size: 20px;
+}
+.languages-level .php p:hover{
+    background-color: #000000; 
+    color: #f8f8f8;
+    transition-delay: 0.2s;
+    border: 3px solid #8b8a8a;
+    border-radius: 20px;
+    -webkit-transform: rotateY(0deg) scale(0.5);
+    transform: rotateY(0deg) scale(1);
+            
+}
